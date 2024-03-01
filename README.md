@@ -1,4 +1,4 @@
-# Article app
+# React shop app
 
 An app using React.js, that stores, lists and presents products from json-server.
 
