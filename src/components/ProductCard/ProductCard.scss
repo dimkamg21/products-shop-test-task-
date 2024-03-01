@@ -1,0 +1,87 @@
+@import '../../utils/utils';
+
+.productCard {
+  padding: 32px 32px 24px;
+  width: $card-width;
+  border: 1px solid $secondary-color;
+
+  transition: box-shadow $transition-duration,
+  border-color $transition-duration;
+
+  &:hover {
+    border-color: #91006c;
+    box-shadow: 1px 5px #91006c;
+  }
+
+  &__image {
+    text-align: center;
+    height: 208px;
+    width: 208px;
+    margin-block: 8px 24px;
+    object-fit: contain;
+  }
+
+  &__title {
+    @extend %main-text;
+
+    color: $main-color;
+    height: 52px;
+  }
+
+  &__count {
+    border-bottom: 1px solid $secondary-color;
+    font-size: 22px;
+    padding: 7px 0;
+
+    &-main {
+      @extend %body-text;
+
+      font-style: bold;
+      margin-right: 8px;
+    }
+  }
+
+  &__parameters {
+    margin-top: 16px;
+  }
+
+  &__text {
+    display: flex;
+    justify-content: space-between;
+
+    @extend %body-text;
+
+    margin-bottom: 8px;
+
+    &-title {
+      color: $secondary-color;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 16px;
+  }
+
+  &__icon {
+    height: 32px;
+    padding-inline: 15px;
+    background: #fff;
+    border: 1px solid $main-color;
+    
+
+    @extend %body-text;
+
+    &:hover {
+      box-shadow: 1px 2px $secondary-color;
+    }
+
+    &--buy {
+      background: $main-color;
+      color: #fff;
+      width: 100%;
+    }
+  }
+}

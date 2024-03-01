@@ -1,0 +1,16 @@
+@import "./mixins";
+@import "./variables";
+
+.container {
+  margin: 20px 16px;
+
+  @include onTablet {
+    margin: 40px 24px;
+  }
+
+  @include onDesktop {
+    width: $container-width;
+    margin: 80px auto;
+    padding: 0 20px;
+  }
+}
