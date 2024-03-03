@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-
 import { Product } from '../../types/Product';
 
 export const useFetch = (url: string, delay: number = 1000): Promise<Product[]> => {

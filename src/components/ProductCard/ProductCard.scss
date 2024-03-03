@@ -13,11 +13,18 @@
     box-shadow: 1px 5px #91006c;
   }
 
+  &--activeModal {
+    filter: blur(5px);
+    pointer-events: none; 
+    border-color: #ff0033;
+  }
+
   &__image {
-    text-align: center;
+    display: block;
+    align-items: center;
     height: 208px;
     width: 208px;
-    margin-block: 8px 24px;
+    margin:  18px auto;
     object-fit: contain;
   }
 

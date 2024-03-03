@@ -1,28 +1,52 @@
+import cn from 'classnames';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
+import { Message } from '../Message/Message';
 import { Product } from '../../types/Product';
 import { DeleteIcon } from '../../assets/icons/DeleteIcon';
+import { ConfirmModal } from '../ConfirmModal/ConfirmModal';
 import { removeProduct } from '../../store/slices/productsSlice';
+import { useAppDispatch } from '../../helpers/customHooks/storeHooks';
 import './ProductCard.scss';
 
 type Props = {
   product: Product;
-  handleBuyClick: () => void,
 };
 
-export const ProductCard: React.FC<Props> = ({ product, handleBuyClick }) => {
+export const ProductCard: React.FC<Props> = ({ product }) => {
   const {
     imageUrl, name, count, weight, id, size
   } = product;
 
-  const dispatch = useDispatch();
+  const [isConfirmModal, setIsConfirmModal] = useState(false);
+  const [isMessageActive, setIsMessageActive] = useState(false);
+
+  const dispatch = useAppDispatch();
 
   const handleDeleteButton = () => {
-      dispatch(removeProduct(product));
+    dispatch(removeProduct(product.id));
+    setIsConfirmModal(false);
   };
 
+  const handleShowConfirmModal = () => {
+    setIsConfirmModal(prev => !prev);
+  };
+
+  const handleBuyButtonClick = () => {
+    setIsMessageActive(true);
+
+    setTimeout(() => {
+      setIsMessageActive(false);
+    }, 2000);
+  }
+
   return (
-    <div className="productCard">
+    <>
+    <div 
+      className={cn('productCard', {
+        'productCard--activeModal': isConfirmModal,
+      })}
+    >
       <Link to={`/products/${id}`}>
         <img
           src={imageUrl}
@@ -52,21 +76,36 @@ export const ProductCard: React.FC<Props> = ({ product, handleBuyClick }) => {
       </ul>
 
       <div className="productCard__button">
-          <button
-            type="button"
-            className="productCard__icon--buy"
-            onClick={handleBuyClick}
-          >
-            Buy
-          </button>
-         <button
-            type="button"
-            className="productCard__icon"
-            onClick={handleDeleteButton}
-          >
-            <DeleteIcon />
-          </button>
+        <button
+          type="button"
+          className="productCard__icon--buy"
+          onClick={handleBuyButtonClick}
+        >
+          Buy
+        </button>
+        <button
+          type="button"
+          className="productCard__icon"
+          onClick={handleShowConfirmModal}
+        >
+          <DeleteIcon />
+        </button>
       </div>
+
     </div>
+
+    {isConfirmModal && (
+      <ConfirmModal
+        handleCancelButton={handleShowConfirmModal}
+        handleConfirmButton={handleDeleteButton}
+      >
+       Delete '{product.name}' product ?
+      </ConfirmModal>
+    )}
+
+    {isMessageActive && (
+      <Message/>
+    )}
+    </>
   );
 };

@@ -4,7 +4,10 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61T+qmzpwtL._AC_SL1000_.jpg",
       "name": "Mechanical Gaming Keyboard and Mouse Set",
       "count": "15",
-      "size": { "width": "150", "height": "50" },
+      "size": {
+        "width": "150",
+        "height": "50"
+      },
       "weight": "130",
       "comments": [],
       "id": "1"
@@ -13,7 +16,10 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61sOops-WqL._SL1200_.jpg",
       "name": "Gaming Headset",
       "count": "30",
-      "size": { "width": "55", "height": "60" },
+      "size": {
+        "width": "55",
+        "height": "60"
+      },
       "weight": "20",
       "comments": [],
       "id": "2"
@@ -22,7 +28,10 @@
       "imageUrl": "https://m.media-amazon.com/images/I/71Uagd+PA0S._AC_SL1500_.jpg",
       "name": "Shower Sandals",
       "count": "1000",
-      "size": { "width": "35", "height": "10" },
+      "size": {
+        "width": "35",
+        "height": "10"
+      },
       "weight": "8",
       "comments": [],
       "id": "3"
@@ -31,7 +40,10 @@
       "imageUrl": "https://m.media-amazon.com/images/I/71ZT26D3IkL._AC_SL1500_.jpg",
       "name": "Ski Goggles",
       "count": "400",
-      "size": { "width": "25", "height": "15" },
+      "size": {
+        "width": "25",
+        "height": "15"
+      },
       "weight": "16",
       "comments": [],
       "id": "4"
@@ -40,7 +52,10 @@
       "imageUrl": "https://m.media-amazon.com/images/I/51PcruQZPiL._AC_SL1500_.jpg",
       "name": "Hoodie",
       "count": "453",
-      "size": { "width": "105", "height": "403" },
+      "size": {
+        "width": "105",
+        "height": "403"
+      },
       "weight": "30",
       "comments": [],
       "id": "5"
@@ -49,7 +64,10 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61e-7RnMi0L._AC_SL1500_.jpg",
       "name": "Electric Scooter",
       "count": "31",
-      "size": { "width": "15", "height": "903" },
+      "size": {
+        "width": "15",
+        "height": "903"
+      },
       "weight": "68",
       "comments": [],
       "id": "6"
@@ -58,7 +76,10 @@
       "imageUrl": "https://m.media-amazon.com/images/I/91aOImqGUuL._AC_SL1500_.jpg",
       "name": "Ski Boot Bag",
       "count": "75",
-      "size": { "width": "40", "height": "70" },
+      "size": {
+        "width": "40",
+        "height": "70"
+      },
       "weight": "5",
       "comments": [],
       "id": "7"
@@ -67,7 +88,10 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61TM6Q9dvxL._AC_SL1500_.jpg",
       "name": "Sneakers",
       "count": "74",
-      "size": { "width": "30", "height": "20" },
+      "size": {
+        "width": "30",
+        "height": "20"
+      },
       "weight": "5",
       "comments": [],
       "id": "8"
@@ -76,7 +100,10 @@
       "imageUrl": "https://m.media-amazon.com/images/I/81w-ePc8jzL._AC_SL1500_.jpg",
       "name": "Snow Boots",
       "count": "32",
-      "size": { "width": "20", "height": "30" },
+      "size": {
+        "width": "20",
+        "height": "30"
+      },
       "weight": "9",
       "comments": [],
       "id": "9"
@@ -85,7 +112,10 @@
       "imageUrl": "https://m.media-amazon.com/images/I/81mbb2ni90L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       "name": "Sofa",
       "count": "9",
-      "size": { "width": "80", "height": "150" },
+      "size": {
+        "width": "80",
+        "height": "150"
+      },
       "weight": "90",
       "comments": [],
       "id": "10"
@@ -94,7 +124,10 @@
       "imageUrl": "https://m.media-amazon.com/images/I/7197v0bNKIL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       "name": "Heated Gloves",
       "count": "65",
-      "size": { "width": "20", "height": "40" },
+      "size": {
+        "width": "20",
+        "height": "40"
+      },
       "weight": "5",
       "comments": [],
       "id": "11"
@@ -103,7 +136,10 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61yFEevZ1PL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       "name": "TV",
       "count": "7",
-      "size": { "width": "5", "height": "140" },
+      "size": {
+        "width": "5",
+        "height": "140"
+      },
       "weight": "40",
       "comments": [],
       "id": "12"
@@ -112,7 +148,10 @@
       "imageUrl": "https://m.media-amazon.com/images/I/815uX7wkOZS._AC_SL1500_.jpg",
       "name": "Laptop",
       "count": "20",
-      "size": { "width": "45", "height": "70" },
+      "size": {
+        "width": "45",
+        "height": "70"
+      },
       "weight": "32",
       "comments": [],
       "id": "13"
@@ -121,7 +160,10 @@
       "imageUrl": "https://m.media-amazon.com/images/I/81obDhYrsXS.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       "name": "Rabbit Garden Statue",
       "count": "1",
-      "size": { "width": "45", "height": "70" },
+      "size": {
+        "width": "45",
+        "height": "70"
+      },
       "weight": "65",
       "comments": [],
       "id": "14"
@@ -130,7 +172,10 @@
       "imageUrl": "https://m.media-amazon.com/images/I/51-TFGHQE2L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       "name": "Smart Watch",
       "count": "65",
-      "size": { "width": "33", "height": "43" },
+      "size": {
+        "width": "33",
+        "height": "43"
+      },
       "weight": "32",
       "comments": [],
       "id": "22"
@@ -139,28 +184,49 @@
       "imageUrl": "https://m.media-amazon.com/images/I/61g-Fm5j+yL._AC_SL1500_.jpg",
       "name": "T-shirt",
       "count": "95",
-      "size": { "width": "100", "height": "30" },
+      "size": {
+        "width": "100",
+        "height": "30"
+      },
       "weight": "10",
       "comments": [],
       "id": "23"
     },
     {
-      "imageUrl": "https://pbs.twimg.com/media/FPQjAsUX0AwmYfg.jpg",
-      "name": "asdasd",
-      "count": "123",
-      "size": { "width": "123s", "height": "sssss" },
-      "weight": "sss",
-      "comments": [],
-      "id": "24"
-    },
-    {
       "imageUrl": "https://wikiimg.tojsiabtv.com/wikipedia/commons/thumb/f/f2/Anna_Bell_Peaks_2018.jpg/1200px-Anna_Bell_Peaks_2018.jpg",
       "name": "asd",
       "count": "21",
-      "size": { "width": "21", "height": "21" },
+      "size": {
+        "width": "21",
+        "height": "21"
+      },
       "weight": "21",
       "comments": [],
       "id": "25"
+    },
+    {
+      "id": "1709477566313",
+      "name": "Dmytro",
+      "count": 33,
+      "imageUrl": "https://picsum.photos/200/300.webp",
+      "weight": "32",
+      "size": {
+        "width": 324,
+        "height": 234
+      },
+      "comments": []
+    },
+    {
+      "id": "1709483197622",
+      "name": "Dmytro123",
+      "count": 55,
+      "imageUrl": "https://picsum.photos/200/300.webp",
+      "weight": "400",
+      "size": {
+        "width": 0,
+        "height": 0
+      },
+      "comments": []
     }
   ]
 }

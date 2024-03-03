@@ -1,7 +1,7 @@
 import { Comment } from './Comment.ts';
 
 export interface Product {
-  id: number;
+  id: string;
   imageUrl: string;
   name: string;
   count: number;
